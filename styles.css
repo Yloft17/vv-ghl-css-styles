@@ -99,8 +99,11 @@ font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
 }
 
 .flex-fill {
-  /*  flex: 1 !important;*/
-    display: flex!important;
-    gap: 1rem!important;
+  flex: 1 !important;
+ 
        /* grows to fill available space */
+}
+
+.space-fix {
+     justify-content: flex-end!important; /* pushes child to bottom */
 }
