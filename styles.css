@@ -105,5 +105,5 @@ font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
 }
 
 .space-fix {
-     justify-content: flex-end!important; /* pushes child to bottom */
+     justify-content: space-between!important; /* pushes child to bottom */
 }
