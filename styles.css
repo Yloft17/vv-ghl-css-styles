@@ -104,6 +104,11 @@ font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
        /* grows to fill available space */
 }
 
+
 .space-fix {
-     justify-content: space-between!important; /* pushes child to bottom */
+  display: flex!important;
+  flex-direction: column!important;
+  justify-content: space-between!important; /* pushes button to bottom */
+  height: 100%!important; /* or a fixed height like 100vh, 600px, etc. */
 }
+
